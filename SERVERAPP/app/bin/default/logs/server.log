@@ -1,0 +1,519 @@
+2023-06-03 02:01:09 INFO  Main:12 - Starting the server
+2023-06-03 12:41:01 INFO  Main:12 - Starting the server
+2023-06-03 12:41:01 INFO  ClientHandler:51 - New client connected: fdjal
+2023-06-03 12:41:01 INFO  ClientHandler:52 - Number of clients: 1
+2023-06-03 12:41:01 INFO  Server:24 - New client connected
+2023-06-03 12:41:03 ERROR ClientHandler:123 - Error handling client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.run(ClientHandler.java:62) [main/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-03 12:51:01 ERROR Server:27 - Error accepting client connection
+java.net.SocketTimeoutException: Accept timed out
+	at sun.nio.ch.NioSocketImpl.timedAccept(NioSocketImpl.java:708) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:752) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:675) ~[?:?]
+	at java.net.ServerSocket.platformImplAccept(ServerSocket.java:641) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:617) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:574) ~[?:?]
+	at java.net.ServerSocket.accept(ServerSocket.java:532) ~[?:?]
+	at serverapp.Server.startServer(Server.java:21) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-03 12:51:01 INFO  Main:15 - Server started on port 9876
+2023-06-03 13:08:18 INFO  Main:12 - Starting the server
+2023-06-03 13:10:37 INFO  ClientHandler:51 - New client connected: Andrei
+2023-06-03 13:10:37 INFO  ClientHandler:52 - Number of clients: 1
+2023-06-03 13:10:37 INFO  Server:24 - New client connected
+2023-06-03 13:10:39 ERROR ClientHandler:123 - Error handling client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.run(ClientHandler.java:62) [main/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-03 13:15:33 ERROR ClientHandler:54 - Error in client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:37) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-03 13:15:33 INFO  Server:24 - New client connected
+2023-06-03 13:15:33 ERROR ClientHandler:123 - Error handling client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:325) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.run(ClientHandler.java:62) [main/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-03 13:37:38 INFO  Main:12 - Starting the server
+2023-06-03 13:37:38 INFO  ClientHandler:51 - New client connected: Andrei
+2023-06-03 13:37:38 INFO  ClientHandler:52 - Number of clients: 1
+2023-06-03 13:37:38 INFO  Server:24 - New client connected
+2023-06-03 13:37:41 ERROR ClientHandler:123 - Error handling client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.run(ClientHandler.java:62) [main/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-03 13:40:03 INFO  Main:12 - Starting the server
+2023-06-03 15:17:00 INFO  Main:12 - Starting the server
+2023-06-03 15:17:19 ERROR ClientHandler:54 - Error in client connection
+java.nio.file.NoSuchFileException: clientsDb.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3288) ~[?:?]
+	at java.nio.file.Files.readString(Files.java:3366) ~[?:?]
+	at java.nio.file.Files.readString(Files.java:3325) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:39) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-03 15:17:19 INFO  Server:24 - New client connected
+2023-06-03 15:22:29 INFO  Main:12 - Starting the server
+2023-06-03 15:22:56 INFO  ClientHandler:31 - Creating new file for Users
+2023-06-03 15:22:56 ERROR ClientHandler:54 - Error in client connection
+java.nio.file.NoSuchFileException: app\src\main\java\serverapp\clientsDb.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:32) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-03 15:22:56 INFO  Server:24 - New client connected
+2023-06-03 15:32:56 ERROR Server:27 - Error accepting client connection
+java.net.SocketTimeoutException: Accept timed out
+	at sun.nio.ch.NioSocketImpl.timedAccept(NioSocketImpl.java:708) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:752) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:675) ~[?:?]
+	at java.net.ServerSocket.platformImplAccept(ServerSocket.java:641) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:617) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:574) ~[?:?]
+	at java.net.ServerSocket.accept(ServerSocket.java:532) ~[?:?]
+	at serverapp.Server.startServer(Server.java:21) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-03 15:32:56 INFO  Main:15 - Server started on port 9876
+2023-06-03 18:17:31 INFO  Main:12 - Starting the server
+2023-06-03 18:17:31 INFO  ClientHandler:31 - Creating new file for Users
+2023-06-03 18:17:31 ERROR ClientHandler:54 - Error in client connection
+java.nio.file.NoSuchFileException: app\src\main\java\serverapp\clientsDb.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:32) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-03 18:17:31 INFO  Server:24 - New client connected
+2023-06-03 18:19:25 INFO  Main:12 - Starting the server
+2023-06-03 18:19:57 INFO  ClientHandler:34 - Creating new file for Users
+2023-06-03 18:19:57 ERROR ClientHandler:55 - Error in client connection
+java.nio.file.NoSuchFileException: app\src\main\java\serverapp\clientsDb.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:35) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-03 18:19:57 INFO  Server:24 - New client connected
+2023-06-03 18:30:18 INFO  Main:12 - Starting the server
+2023-06-03 18:30:39 INFO  ClientHandler:34 - Creating new file for Users
+2023-06-03 18:30:39 ERROR ClientHandler:55 - Error in client connection
+java.nio.file.NoSuchFileException: app\db\clientsDb.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:35) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-03 18:30:39 INFO  Server:24 - New client connected
+2023-06-03 18:40:39 ERROR Server:27 - Error accepting client connection
+java.net.SocketTimeoutException: Accept timed out
+	at sun.nio.ch.NioSocketImpl.timedAccept(NioSocketImpl.java:708) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:752) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:675) ~[?:?]
+	at java.net.ServerSocket.platformImplAccept(ServerSocket.java:641) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:617) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:574) ~[?:?]
+	at java.net.ServerSocket.accept(ServerSocket.java:532) ~[?:?]
+	at serverapp.Server.startServer(Server.java:21) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-03 18:40:39 INFO  Main:15 - Server started on port 9876
+2023-06-03 18:53:12 INFO  Main:12 - Starting the server
+2023-06-03 18:53:12 INFO  ClientHandler:34 - Creating new file for Users
+2023-06-03 18:53:12 ERROR ClientHandler:55 - Error in client connection
+java.nio.file.NoSuchFileException: app\db\clientsDb.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:35) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-03 18:53:12 INFO  Server:24 - New client connected
+2023-06-03 18:53:21 ERROR ClientHandler:124 - Error handling client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.run(ClientHandler.java:63) [main/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-03 18:53:41 INFO  ClientHandler:34 - Creating new file for Users
+2023-06-03 18:53:41 ERROR ClientHandler:55 - Error in client connection
+java.nio.file.NoSuchFileException: app\db\clientsDb.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:35) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-03 18:53:41 INFO  Server:24 - New client connected
+2023-06-03 18:58:21 INFO  Main:12 - Starting the server
+2023-06-03 18:59:16 INFO  ClientHandler:34 - Creating new file for Users
+2023-06-03 18:59:16 ERROR ClientHandler:55 - Error in client connection
+java.nio.file.NoSuchFileException: db\clientsDb.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:35) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-03 18:59:16 INFO  Server:24 - New client connected
+2023-06-04 18:03:29 INFO  Main:12 - Starting the server
+2023-06-04 18:03:54 INFO  ClientHandler:34 - Creating new file for Users
+2023-06-04 18:03:54 ERROR ClientHandler:55 - Error in client connection
+java.nio.file.NoSuchFileException: db\clientsDb.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:35) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-04 18:03:54 INFO  Server:24 - New client connected
+2023-06-04 18:10:05 INFO  Main:12 - Starting the server
+2023-06-04 18:10:51 INFO  ClientHandler:34 - Creating new file for Users
+2023-06-04 18:10:51 ERROR ClientHandler:55 - Error in client connection
+java.nio.file.NoSuchFileException: db\clientsDb.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.createFile(Files.java:658) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:35) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-04 18:10:51 INFO  Server:24 - New client connected
+2023-06-04 18:12:20 INFO  Main:12 - Starting the server
+2023-06-04 18:12:40 ERROR ClientHandler:52 - Error in client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:35) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-04 18:12:40 INFO  Server:24 - New client connected
+2023-06-04 18:12:40 ERROR ClientHandler:121 - Error handling client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:325) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.run(ClientHandler.java:60) [main/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-04 18:13:20 ERROR ClientHandler:52 - Error in client connection
+java.nio.file.NoSuchFileException: db\clientsDb.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3288) ~[?:?]
+	at java.nio.file.Files.readString(Files.java:3366) ~[?:?]
+	at java.nio.file.Files.readString(Files.java:3325) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:37) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-04 18:13:20 INFO  Server:24 - New client connected
+2023-06-04 18:23:20 ERROR Server:27 - Error accepting client connection
+java.net.SocketTimeoutException: Accept timed out
+	at sun.nio.ch.NioSocketImpl.timedAccept(NioSocketImpl.java:708) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:752) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:675) ~[?:?]
+	at java.net.ServerSocket.platformImplAccept(ServerSocket.java:641) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:617) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:574) ~[?:?]
+	at java.net.ServerSocket.accept(ServerSocket.java:532) ~[?:?]
+	at serverapp.Server.startServer(Server.java:21) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-04 18:23:20 INFO  Main:15 - Server started on port 9876
+2023-06-04 19:14:31 ERROR ClientHandler:121 - Error handling client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.run(ClientHandler.java:60) [main/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-04 19:20:52 INFO  Main:12 - Starting the server
+2023-06-04 19:20:52 ERROR ClientHandler:52 - Error in client connection
+java.nio.file.NoSuchFileException: db\clientsDb.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3288) ~[?:?]
+	at java.nio.file.Files.readString(Files.java:3366) ~[?:?]
+	at java.nio.file.Files.readString(Files.java:3325) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:37) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-04 19:20:52 INFO  Server:24 - New client connected
+2023-06-04 19:22:45 INFO  Main:12 - Starting the server
+2023-06-04 19:22:56 ERROR ClientHandler:52 - Error in client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:35) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-04 19:22:56 INFO  Server:24 - New client connected
+2023-06-04 19:22:56 ERROR ClientHandler:121 - Error handling client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:325) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.run(ClientHandler.java:60) [main/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-04 19:23:05 ERROR ClientHandler:52 - Error in client connection
+java.nio.file.NoSuchFileException: db\clientsDb.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3288) ~[?:?]
+	at java.nio.file.Files.readString(Files.java:3366) ~[?:?]
+	at java.nio.file.Files.readString(Files.java:3325) ~[?:?]
+	at serverapp.ClientHandler.<init>(ClientHandler.java:37) [main/:?]
+	at serverapp.Server.startServer(Server.java:22) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-04 19:23:05 INFO  Server:24 - New client connected
+2023-06-04 19:25:16 ERROR ClientHandler:121 - Error handling client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.run(ClientHandler.java:60) [main/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-04 19:25:58 INFO  Main:12 - Starting the server
+2023-06-04 19:25:58 INFO  ClientHandler:49 - New client connected: darova
+2023-06-04 19:25:58 INFO  ClientHandler:50 - Number of clients: 1
+2023-06-04 19:25:58 INFO  Server:24 - New client connected
+2023-06-05 01:03:29 INFO  Main:12 - Starting the server
+2023-06-05 01:03:55 INFO  ClientHandler:49 - New client connected: Andrei
+2023-06-05 01:03:55 INFO  ClientHandler:50 - Number of clients: 1
+2023-06-05 01:03:55 INFO  Server:24 - New client connected
+2023-06-05 01:04:28 INFO  Main:12 - Starting the server
+2023-06-10 19:33:21 INFO  Main:12 - Starting the server
+2023-06-10 19:42:41 INFO  Main:12 - Starting the server
+2023-06-10 19:52:52 INFO  Main:12 - Starting the server
+2023-06-10 19:52:52 INFO  ClientHandler:49 - New client connected: Daunich
+2023-06-10 19:52:52 INFO  ClientHandler:50 - Number of clients: 1
+2023-06-10 19:52:52 INFO  Server:24 - New client connected
+2023-06-10 19:52:52 INFO  ClientHandler:49 - New client connected: Andrei
+2023-06-10 19:52:52 INFO  ClientHandler:50 - Number of clients: 2
+2023-06-10 19:52:52 INFO  Server:24 - New client connected
+2023-06-10 19:53:16 ERROR ClientHandler:121 - Error handling client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.run(ClientHandler.java:60) [main/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-10 19:53:20 ERROR ClientHandler:121 - Error handling client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.run(ClientHandler.java:60) [main/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-10 20:00:21 INFO  ClientHandler:49 - New client connected: user1
+2023-06-10 20:00:21 INFO  ClientHandler:50 - Number of clients: 1
+2023-06-10 20:00:21 INFO  Server:24 - New client connected
+2023-06-10 20:00:24 ERROR ClientHandler:121 - Error handling client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.run(ClientHandler.java:60) [main/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-10 20:00:42 INFO  ClientHandler:49 - New client connected: user11
+2023-06-10 20:00:42 INFO  ClientHandler:50 - Number of clients: 1
+2023-06-10 20:00:42 INFO  Server:24 - New client connected
+2023-06-10 20:00:48 INFO  ClientHandler:49 - New client connected: user22
+2023-06-10 20:00:48 INFO  ClientHandler:50 - Number of clients: 2
+2023-06-10 20:00:48 INFO  Server:24 - New client connected
+2023-06-10 20:00:57 ERROR ClientHandler:121 - Error handling client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.run(ClientHandler.java:60) [main/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-10 20:00:59 ERROR ClientHandler:121 - Error handling client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.run(ClientHandler.java:60) [main/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-10 20:01:35 INFO  ClientHandler:49 - New client connected: halo
+2023-06-10 20:01:35 INFO  ClientHandler:50 - Number of clients: 1
+2023-06-10 20:01:35 INFO  Server:24 - New client connected
+2023-06-10 20:11:35 ERROR Server:27 - Error accepting client connection
+java.net.SocketTimeoutException: Accept timed out
+	at sun.nio.ch.NioSocketImpl.timedAccept(NioSocketImpl.java:708) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:752) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:675) ~[?:?]
+	at java.net.ServerSocket.platformImplAccept(ServerSocket.java:641) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:617) ~[?:?]
+	at java.net.ServerSocket.implAccept(ServerSocket.java:574) ~[?:?]
+	at java.net.ServerSocket.accept(ServerSocket.java:532) ~[?:?]
+	at serverapp.Server.startServer(Server.java:21) [main/:?]
+	at serverapp.Main.main(Main.java:14) [main/:?]
+2023-06-10 20:11:35 INFO  Main:15 - Server started on port 9876
+2023-06-10 20:13:29 ERROR ClientHandler:121 - Error handling client connection
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:343) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:595) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:570) ~[?:?]
+	at serverapp.ClientHandler.run(ClientHandler.java:60) [main/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-06-10 20:13:59 INFO  Main:12 - Starting the server
+2023-06-10 20:19:05 INFO  ClientHandler:49 - New client connected: Andrei
+2023-06-10 20:19:05 INFO  ClientHandler:50 - Number of clients: 1
+2023-06-10 20:19:05 INFO  Server:24 - New client connected

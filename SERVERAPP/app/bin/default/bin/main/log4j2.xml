@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <!-- Console appender configuration -->
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+        </Console>
+
+        <File name="ServerFile" fileName="logs/server.log">
+            <!-- Server file appender configuration -->
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+        </File>
+
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console" />
+        </Root>
+
+        <Logger name="serverapp.Main" level="debug" additivity="false">
+            <AppenderRef ref="ServerFile" />
+        </Logger>
+        <Logger name="serverapp.ClientHandler" level="debug" additivity="false">
+            <AppenderRef ref="ServerFile" />
+        </Logger>        
+        <Logger name="serverapp.Server" level="debug" additivity="false">
+            <AppenderRef ref="ServerFile" />
+        </Logger>        
+    </Loggers>
+</Configuration>

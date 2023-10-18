@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <!-- Console appender configuration -->
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+        </Console>
+
+        <File name="GUIFile" fileName="app/src/main/logs/GUI.log">
+            <!-- GUI file appender configuration -->
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console" />
+        </Root>
+
+
+        <Logger name="guiapp.Main" level="info" additivity="false">
+            <AppenderRef ref="GUIFile" />            
+        </Logger>
+        <Logger name="guiapp.View" level="info" additivity="false">
+            <AppenderRef ref="GUIFile" />            
+        </Logger>
+        <Logger name="guiapp.Client" level="info" additivity="false">
+            <AppenderRef ref="GUIFile" />            
+        </Logger>        
+    </Loggers>
+</Configuration>
