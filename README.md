@@ -1,2 +1,2 @@
 # ChatApplication
-local chat gradle project
+local chat gradle project using sockets
